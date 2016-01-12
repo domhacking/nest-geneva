@@ -1,0 +1,1 @@
+{"nfs":{"/vagrant":{"type":"nfs","guestpath":"/vagrant","hostpath":"/Users/dominic.hacking/personal_development/nest","disabled":false,"map_uid":862263334,"map_gid":851169923,"nfs_udp":true,"nfs_version":3,"uuid":"1013123657"}}}

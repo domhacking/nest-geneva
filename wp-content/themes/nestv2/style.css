@@ -1,0 +1,1816 @@
+* {
+     margin: 0pt;
+     padding: 0pt;
+}
+
+body, html {
+     background: none repeat scroll 0% 0% #000000;
+     color: #D1D3D4;
+     font-family: Helvetica;
+     font-size: 12px;
+     font-weight: normal;
+     line-height: 135%;
+     position: relative;
+     z-index: -20;
+}
+
+ul {
+     list-style: none outside none;
+}
+
+a {
+     color: #D1D3D4;
+     text-decoration: none;
+}
+
+a:hover {
+     font-weight: bold;
+     text-decoration: none;
+}
+
+#mainMenu a {
+     font-weight: normal;
+}
+
+a:focus {
+     outline: medium none;
+}
+
+p {
+     margin: 0pt 0pt 1.5em;
+}
+
+h1, h2, h3 {
+     font-size: 15px;
+     line-height: 100%;
+     padding-bottom: 15px;
+}
+
+h1 {
+     font-weight: normal;
+}
+
+h1 a:hover {
+     color: #333333;
+     text-decoration: none;
+}
+
+h2 {
+     color: #D1D3D4;
+     font-size: 15px;
+     font-weight: normal;
+     padding-top: 10px;
+}
+
+h3 {
+     font-size: 18px;
+     padding-top: 10px;
+}
+
+#mainWrapper {
+     background: none no-repeat scroll center top #000000;
+     margin: auto;
+     width: 100% ! important;
+}
+
+.nest-living #bg_containers {
+     background: none repeat scroll 0% 0% #000000;
+     left: 0px;
+     margin: 0pt;
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     z-index: 1;
+}
+
+.nest-living #bg_containers div {
+     background: none repeat scroll 0% 0% #000000;
+     height: 586px;
+     margin: 0pt auto;
+     width: 100%;
+}
+
+.nest-living #bg_containers .bg1 {
+     background: url("images/gold_1.png") no-repeat scroll left center transparent;
+}
+
+.nest-living #bg_containers .bg2 {
+     background: url("images/gold_1.png") no-repeat scroll right 190px transparent;
+}
+
+.nest-living #bg_containers .bg3 {
+     background: url("images/gold_1.png") no-repeat scroll left 390px transparent;
+}
+
+#bg_containers {
+     background: none repeat scroll 0% 0% #000000;
+     left: 0px;
+     margin: 0pt;
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     z-index: 1;
+}
+
+#bg_containers div {
+     background: none repeat scroll 0% 0% #000000;
+     height: 586px;
+     margin: 0pt auto;
+     width: 100%;
+}
+
+#bg_containers .bg1 {
+     background: url("images/grey-dots.png") no-repeat scroll left center transparent;
+}
+
+#bg_containers .bg2 {
+     background: url("images/grey-dots.png") no-repeat scroll right 190px transparent;
+}
+
+#bg_containers .bg3 {
+     background: url("images/grey-dots.png") no-repeat scroll left 390px transparent;
+}
+
+#bg_containers {
+     background: none repeat scroll 0% 0% #000000;
+     left: 0px;
+     margin: 0pt;
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     z-index: 1;
+}
+
+#bg_containers div {
+     background: none repeat scroll 0% 0% #000000;
+     height: 586px;
+     margin: 0pt auto;
+     width: 100%;
+}
+
+.nest-gallery #bg_containers .bg1 {
+     background: url("images/purple-dots.png") no-repeat scroll left center transparent;
+}
+
+.nest-gallery #bg_containers .bg2 {
+     background: url("images/purple-dots.png") no-repeat scroll right 190px transparent;
+}
+
+.nest-gallery #bg_containers .bg3 {
+     background: url("images/purple-dots.png") no-repeat scroll left 390px transparent;
+}
+
+.galleries #bg_containers .bg1 {
+     background: url("images/purple-dots.png") no-repeat scroll left center transparent;
+}
+
+.galleries #bg_containers .bg2 {
+     background: url("images/purple-dots.png") no-repeat scroll right 190px transparent;
+}
+
+.galleries #bg_containers .bg3 {
+     background: url("images/purple-dots.png") no-repeat scroll left 390px transparent;
+}
+
+.exhibitions-past #bg_containers .bg1 {
+     background: url("images/purple-dots.png") no-repeat scroll left center transparent;
+}
+
+.exhibitions-past #bg_containers .bg2 {
+     background: url("images/purple-dots.png") no-repeat scroll right 190px transparent;
+}
+
+.exhibitions-past #bg_containers .bg3 {
+     background: url("images/purple-dots.png") no-repeat scroll left 390px transparent;
+}
+
+.exhibitions #bg_containers .bg1 {
+     background: url("images/purple-dots.png") no-repeat scroll left center transparent;
+}
+
+.exhibitions #bg_containers .bg2 {
+     background: url("images/purple-dots.png") no-repeat scroll right 190px transparent;
+}
+
+.exhibitions #bg_containers .bg3 {
+     background: url("images/purple-dots.png") no-repeat scroll left 390px transparent;
+}
+
+.apartments #bg_containers .bg1 {
+     background: url("images/gold_1.png") no-repeat scroll left center transparent;
+}
+
+.apartments #bg_containers .bg2 {
+     background: url("images/gold_1.png") no-repeat scroll right 190px transparent;
+}
+
+.apartments #bg_containers .bg3 {
+     background: url("images/gold_1.png") no-repeat scroll left 390px transparent;
+}
+
+#wrapper {
+     background: url("images/content_bg.png") repeat scroll 0% 0% transparent;
+     margin: 0pt auto;
+     padding: 25px 25px 0px;
+     position: relative ! important;
+     width: 910px;
+     z-index: 10 ! important;
+}
+
+#innerWrapper {
+     background: url("images/shadows.png") no-repeat scroll 0% 0% transparent;
+     margin: auto;
+     position: relative;
+     width: 1218px;
+     z-index: 10;
+}
+
+#header {
+     background: none repeat scroll 0% 0% transparent;
+     height: 105px;
+     position: relative;
+}
+
+#headerRight {
+     position: absolute;
+     right: 60px;
+}
+
+#headerRight li {
+     color: #FFFFFF;
+     display: inline;
+     font-size: 12px;
+     font-weight: normal;
+     letter-spacing: 1px;
+     margin-left: 8px;
+}
+
+#headerRight li a, #headerRight a {
+     color: #D1D3D4;
+}
+
+#content {
+     background: none repeat scroll 0% 0% transparent;
+     margin-top: 25px;
+     min-height: 350px;
+     overflow: hidden;
+     padding-bottom: 10px;
+}
+
+body#home #content {
+     margin-top: 20px;
+}
+
+body#home #content, body#portfolio #content {
+     background: none repeat scroll 0% 0% transparent;
+}
+
+#content li {
+     list-style: none outside none;
+}
+
+#content #colLeft {
+     float: left;
+     margin-right: 50px;
+     padding-top: 10px;
+     width: 670px;
+}
+
+#content #colLeftIndex, #colLeftSingle {
+     float: left;
+     margin-right: 50px;
+     padding-top: 50px;
+     width: 670px;
+}
+
+.sidebarNew {
+     float: left;
+     margin-top: 50px;
+     width: 190px;
+}
+
+.sidebarNew li {
+     margin: 5px 0px 0px;
+}
+
+#content #colRight {
+     float: left;
+     width: 240px;
+}
+
+#footer {
+     background: none repeat scroll 0% 0% transparent;
+     color: #666666;
+     font-size: 12px;
+     margin: 40px 0pt 0pt;
+     padding-top: 3px;
+     position: relative;
+}
+
+#footerWidgetsInner {
+     margin: 10px auto 0pt;
+     overflow: hidden;
+     padding: 0px 0pt 35px;
+     width: 910px;
+}
+
+#logo {
+     left: 0pt;
+     position: absolute;
+     top: 0px;
+}
+
+#logo a img {
+     border: medium none;
+     vertical-align: middle;
+}
+
+#mainMenu {
+     border-bottom: 1px solid #FFFFFF;
+     position: absolute;
+     top: 80px;
+     width: 100%;
+}
+
+#mainMenu ul {
+     background: none repeat scroll 0% 0% transparent;
+     float: right;
+}
+
+#mainMenu ul li {
+     border-right: 1px solid #FFFFFF;
+     float: left;
+     height: 45px;
+     text-align: center;
+}
+
+#mainMenu ul li a {
+     background: none repeat scroll 0% 0% transparent;
+     color: #FFFFFF;
+     display: block;
+     font-size: 15px;
+     height: 25px;
+     margin: 0px 5px;
+     padding: 15px 0px 0px;
+     width: 115px;
+}
+
+#mainMenu ul li a span {
+     color: #999999;
+     font-size: 10px;
+     line-height: 120%;
+}
+
+#mainMenu ul li a:hover {
+     background: none repeat scroll 0% 0% transparent;
+     color: #FFFFFF;
+     text-decoration: none;
+}
+
+#mainMenu ul li ul li a:hover {
+     background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+#mainMenu.ddsmoothmenu .page_item.page-item-8 a {
+     color: #9B74B3;
+}
+
+#mainMenu.ddsmoothmenu .page_item.page-item-8 a:hover, #mainMenu.ddsmoothmenu .page-item-8.current_page_ancestor a {
+     font-weight: bold;
+}
+
+#mainMenu.ddsmoothmenu .page_item.page-item-10 a:hover, #mainMenu.ddsmoothmenu .page-item-10.current_page_ancestor a {
+     font-weight: bold;
+}
+
+#mainMenu.ddsmoothmenu .page-item-6.current_page_item a {
+     font-weight: bold;
+}
+
+#mainMenu.ddsmoothmenu .page-item-6 a:hover {
+     font-weight: bold;
+}
+
+#mainMenu.ddsmoothmenu .page_item.page-item-10 a {
+     border-right: medium none;
+     color: #E7A614;
+}
+
+.postItem {
+     border-bottom: 1px dotted #BBBBBB;
+     margin: 0pt 0pt 20px;
+     overflow: hidden;
+     padding: 0pt 0pt 15px;
+}
+
+.postItem h1 {
+     text-transform: uppercase;
+}
+
+.postItem h1 a:hover {
+     color: #CCCCCC;
+}
+
+.postItem .meta {
+     color: #CCCCCC;
+     font-size: 11px;
+     margin-bottom: 18px;
+     margin-top: -5px;
+}
+
+#content #colLeft ul li, #content #colLeft ol li {
+     font-size: 12px;
+     list-style: disc outside none;
+     padding: 5px 0pt 5px 5px;
+}
+
+#content #colLeft ul {
+     margin: 0pt 0pt 15px 15px;
+}
+
+#content #colLeft ol li {
+     background: none repeat scroll 0% 0% transparent;
+     padding-left: 0pt;
+}
+
+#content #colLeft ol {
+     margin: 0pt 0pt 15px 35px;
+}
+
+.emm-paginate {
+     clear: both;
+     overflow: hidden;
+     padding: 10px 0pt;
+}
+
+.emm-paginate a {
+     background: url("images/bk_pagenavi.jpg") repeat-x scroll 0pt 100% transparent;
+     border: 1px solid #DDDDDD;
+     color: #666666;
+     margin-right: 5px;
+     padding: 4px 8px;
+     text-align: center;
+     text-decoration: none;
+}
+
+.emm-paginate .emm-title {
+     color: #555555;
+     margin-right: 4px;
+}
+
+.emm-paginate .emm-gap {
+     color: #999999;
+     margin-right: 4px;
+}
+
+.emm-paginate a:hover, .emm-paginate a:active, .emm-paginate .emm-current {
+     background: none repeat scroll 0% 0% #18AEF5;
+     border: 1px solid #0A95D8;
+     color: #FFFFFF;
+     margin-right: 5px;
+     padding: 4px 8px;
+}
+
+.emm-paginate .emm-page {
+    
+}
+
+.emm-paginate .emm-prev, .emm-paginate .emm-next {
+    
+}
+
+.rightBox {
+     margin-bottom: 17px;
+}
+
+.rightBox h2 {
+     padding: 10px 0pt;
+}
+
+.rightBox ul li {
+     border-bottom: 1px solid #DDDDDD;
+     padding: 6px 0pt;
+}
+
+.rightBox ul {
+     border-top: 1px solid #DDDDDD;
+}
+
+#footerWidgetsInner #copyright {
+     border-top: 1px solid #FFFFFF;
+     clear: both;
+     color: #FFFFFF;
+     margin-top: 15px;
+     padding-top: 15px;
+     position: relative;
+}
+
+#copyright .left {
+     float: left;
+     width: 70%;
+}
+
+#copyright .left a {
+     color: #D1D3D4;
+}
+
+#copyright .left .top {
+     font-size: 12px;
+     margin-bottom: 10px;
+}
+
+#copyright .left .top li {
+     border-right: 1px solid;
+     display: inline;
+     margin-right: 5px;
+     padding-right: 8px;
+}
+
+#copyright .left .bottom li {
+     border-right: 1px solid;
+     display: inline;
+     margin-right: 5px;
+     padding-right: 8px;
+}
+
+#copyright .left .bottom li.icon {
+     border-right: 0px solid;
+     display: inline;
+     margin-right: 0px;
+     padding-right: 4px;
+}
+
+#copyright .left .top li.last {
+     border-right: 0px solid;
+     display: inline;
+     margin-right: 0px;
+     padding-right: 4px;
+}
+
+#copyright .left .bottom li a {
+     display: inline;
+     font-size: 11px;
+}
+
+#copyright .right {
+     color: #D1D3D4;
+     float: right;
+     font-size: 11px;
+}
+
+#homeContent {
+     border-bottom: 1px solid #FFFFFF;
+     color: #FFFFFF;
+     float: left;
+     padding-bottom: 0px;
+     width: 100%;
+}
+
+#homeContent .left img {
+     border-color: #6E2A8D;
+     border-style: solid none none;
+     border-width: 10px 0px 0px;
+     margin-bottom: 20px;
+}
+
+#homeContent .title, #contactArea .title {
+     color: #D1D1D1;
+     font-size: 15px;
+     margin-bottom: 15px;
+     margin-top: 15px;
+}
+
+#homeContent .right img {
+     border-color: #E7A614;
+     border-style: solid none none;
+     border-width: 10px 0px 0px;
+     margin-bottom: 20px;
+}
+
+#homeContent .left {
+     float: left;
+     margin-right: 20px;
+     width: 50%;
+}
+
+.homeTitle {
+     font-size: 15px;
+     margin-bottom: 0px;
+     margin-top: 30px;
+}
+
+.homeTitle h2 {
+     padding: 0px 0px 5px;
+}
+
+.icons {
+     float: left;
+}
+
+.bottom ul {
+     float: left;
+     margin-right: 20px;
+}
+
+#contactArea {
+     color: #A1A1A1;
+     float: left;
+     margin-top: 30px;
+     width: 100%;
+}
+
+#contactArea .left {
+     float: left;
+     width: 70%;
+}
+
+#contactArea .right {
+     color: #D1D3D4;
+     float: left;
+     width: 30%;
+}
+
+#contactArea .left p, #contactArea .theDate {
+     color: #FFFFFF;
+}
+
+#contactArea h2 {
+     font-weight: bold;
+}
+
+#contactArea .right h2 {
+     margin-bottom: 7px;
+}
+
+#contactArea h2 a {
+     color: #D1D3D4;
+}
+
+#contactArea .newsPiece p {
+     margin: 0px;
+     padding: 0px;
+}
+
+.newsPiece li {
+     font-size: 12px;
+     padding: 5px 0px 0px;
+     text-transform: uppercase;
+}
+
+.newsPiece li a {
+     font-size: 12px ! important;
+     padding: 5px 0px 0px;
+}
+
+#contactArea .newsPiece {
+     border-bottom: 1px solid;
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+     width: 90%;
+}
+
+#contactArea .newsPiece a:hover {
+     font-weight: normal;
+     text-decoration: none;
+}
+
+#contactArea .newsPiece #category-40 a:hover, #contactArea .newsPiece #category-36 a:hover, #contactArea .newsPiece #category-38 a:hover {
+     font-weight: bold;
+     text-decoration: none;
+}
+
+#contactArea .newsPiece .title {
+     font-size: 15px;
+     margin: 0px 0px 10px;
+}
+
+.homeIntro {
+     line-height: 50px;
+}
+
+.homeIntroComment {
+     font-size: 15px;
+     line-height: 20px;
+     margin-bottom: 0px;
+     margin-top: 3px;
+     text-transform: uppercase;
+}
+
+#pageBase {
+     background: url("images/bottom_bg.jpg") no-repeat scroll center top transparent;
+     margin: auto;
+     min-height: 190px;
+     position: relative;
+     z-index: -10;
+}
+
+#content p {
+     color: #D1D3D4;
+}
+
+#homeContent .text {
+     width: 95%;
+}
+
+#secondLevelMenu {
+     float: left ! important;
+     font-size: 15px ! important;
+     margin: 20px 0px 60px;
+     width: 100%;
+}
+
+#secondLevelMenu ul li {
+     display: inline;
+     margin-right: 10px;
+}
+
+#secondLevelMenu ul.children {
+     font-size: 12px;
+     margin-top: 10px;
+     position: absolute;
+}
+
+.nest-gallery #secondLevelMenu .current_page_item a, .nest-gallery .current_page_parent a {
+     color: #9B74B3;
+}
+
+#secondLevelMenu .current_page_item a, .current_page_parent a {
+     color: #E7A614;
+}
+
+#secondLevelMenu .current_page_item .children a {
+     color: #9B74B3;
+}
+
+.exhibitions #secondLevelMenu .current_page_item a, .exhibitions .current_page_parent a {
+     color: #9B74B3;
+}
+
+.exhibitions #secondLevelMenu .current_page_item a {
+     color: #9B74B3;
+}
+
+#philColGal {
+     background: url("http://www.nest-geneva.ch/wp-content/uploads/gallery-philosophy_bg.jpg") no-repeat scroll 0% 0% transparent;
+     float: left;
+     width: 100%;
+}
+
+#bookCol {
+     background: url("images/living-booking.jpg") no-repeat scroll 0% 0% transparent;
+     float: left;
+     width: 100%;
+}
+
+#bookCol #galleryBookingForm {
+     margin-top: 0px;
+     padding: 10px ! important;
+}
+
+#galleryBookingForm {
+     background: url("images/book_bg.png1") repeat scroll 0% 0% transparent;
+     padding: 10px 20px ! important;
+}
+
+#philColGal .text {
+     background: url("images/phil_trans_bg.png") repeat scroll 0% 0% transparent;
+     float: left;
+     height: 414px;
+     padding: 20px;
+     width: 460px;
+}
+
+#bookCol .text {
+     background: url("images/phil_trans_bg.png") repeat scroll 0% 0% transparent;
+     float: left;
+     height: 510px;
+     padding: 20px;
+     width: 460px;
+}
+
+#philColGal .text p, #philColLiv .text p, #aboutCol .text p {
+     color: #FFFFFF;
+     font-size: 12px;
+}
+
+#aboutCol {
+     margin-top: 40px;
+}
+
+#philColLiv {
+     background: url("images/living-philosophy_bg.jpg") no-repeat scroll 0% 0% transparent;
+     float: left;
+     width: 100%;
+}
+
+#philColLiv .text {
+     background: url("images/phil_trans_bg.png") repeat scroll 0% 0% transparent;
+     float: left;
+     height: 415px;
+     padding: 20px;
+     width: 550px;
+}
+
+#philColLiv .text p {
+     margin-bottom: 10px;
+}
+
+#aboutCol {
+     background: url("images/about_bg.jpg") no-repeat scroll 0% 0% transparent;
+     float: left;
+     width: 100%;
+}
+
+#aboutCol .text {
+     background: url("images/phil_trans_bg.png") repeat scroll 0% 0% transparent;
+     float: left;
+     height: 414px;
+     padding: 20px;
+     width: 590px;
+}
+
+#contactColLeft {
+     float: left;
+     margin-right: 25px;
+     width: 200px;
+}
+
+#contactColLeft .topBox {
+     border-bottom: 1px dotted;
+     margin-bottom: 20px;
+}
+
+#appcolLeft {
+     float: left;
+     margin-bottom: -20px;
+     margin-top: 50px;
+     width: 640px;
+}
+
+#galcolLeft {
+     float: left;
+     margin-bottom: -20px;
+     margin-top: 50px;
+     width: 412px;
+}
+#galcolRight {
+     float: right;
+     margin-bottom: -20px;
+     margin-top: 50px;
+     padding-left: 40px;
+     width: 412px;
+}
+
+#AppImages {
+     float: left;
+     margin-bottom: 20px;
+     width: 100%;
+}
+
+#AppImages .aprt {
+     float: left;
+     margin-right: 42px;
+     position: relative;
+     width: 275px;
+}
+
+.aprt_last {
+     position: relative;
+}
+
+.aprt .size, .aprt_last .size {
+     margin-top: 0px;
+}
+
+#AppImages .aprt_last {
+     float: left;
+     margin-right: 0px;
+     width: 275px;
+}
+
+#AppImages .aprt .image, #AppImages .aprt_last .image {
+     margin-bottom: 10px;
+}
+
+#GalImages {
+     float: left;
+}
+
+#GalImages .gal {
+     margin-right: 82px;
+     float: left;
+     position: relative;
+     width: 412px;
+}
+
+#GalImages .gal_last {
+     float: right;
+     position: relative;
+     width: 412px;
+}
+
+#GalImages img {
+     width: 100%;
+     height: auto;
+}
+
+#GalImages .gal .image, #GalImages .gal_last .image {
+     margin-bottom: 20px;
+}
+
+#secondLevelMenu ul .children a {
+     color: #D1D3D4;
+}
+
+#secondLevelMenu ul .children .current_page_item a {
+     color: #E7A614;
+}
+
+#appBottom {
+     float: left;
+     font-size: 12px;
+     margin-top: 30px;
+     width: 100%;
+}
+
+#appBottom .left {
+     float: left;
+     margin-right: 50px;
+     width: 220px;
+}
+
+#appBottom .center {
+     float: left;
+     width: 200px;
+}
+
+#appBottom h2 {
+     font-size: 15px ! important;
+     text-transform: uppercase;
+}
+
+#appBottom .center li, .left .left2 li, #appBottom .right li {
+     list-style: disc outside none;
+     margin-left: 15px;
+     padding: 0px 0px 5px;
+}
+
+#appBottom .right {
+     float: left;
+     margin-left: 70px;
+     width: 200px;
+}
+
+#appBottom .right1 img {
+     float: right;
+     margin-top: 5px;
+}
+
+#appBottom .right img {
+     margin-top: 20px;
+}
+
+#appBottom h2 {
+     font-size: 15px;
+}
+
+.applisting {
+     float: left;
+     height: 173px;
+     margin-right: 42px;
+     position: relative;
+}
+
+.applisting .listingTitle {
+     background: none repeat scroll 0% 0% #E7A614;
+     font-size: 15px;
+     height: 38px;
+     padding: 2px 0px 0px 5px;
+     position: absolute;
+     text-transform: uppercase;
+     top: 0px;
+     width: 50%;
+}
+
+.aprtName {
+     background: none repeat scroll 0% 0% #E7A614;
+     font-size: 15px;
+     height: 22px ! important;
+     left: 0px;
+     padding: 10px 0px 0px 5px;
+     position: absolute;
+     text-transform: uppercase;
+     top: 0px;
+     width: 50%;
+}
+
+.applisting .listingTitle h2 a {
+     color: #FFFFFF;
+}
+
+.navigation {
+     float: left;
+     text-transform: uppercase;
+     width: 100%;
+}
+
+.navigation a {
+     font-size: 15px;
+}
+
+.navigation .alignleft {
+     float: left;
+     margin-right: 20px;
+}
+
+.navigation .alignrightgal {
+     float: left;
+}
+
+.navigation .alignright {
+     float: left;
+}
+
+.home .rightInput {
+     background: none repeat scroll 0% 0% transparent;
+     border: 0px none;
+     color: #000000;
+     float: left;
+     margin-top: 20px;
+     padding: 0px;
+     width: 273px;
+}
+
+.rightInput input {
+     font-size: 11px;
+     height: 20px;
+	 margin-bottom: 10px;
+     padding-left: 5px;
+     width: 273px;
+}
+
+.rightInput #buttons input {
+     background: url("images/send.jpg") repeat scroll 0% 0% transparent;
+     border: 0px none;
+     height: 24px;
+     width: 90px;
+	 margin-bottom: 20px;
+}
+
+.rightInput #sub-confirm input {
+     colour: #E7A614;
+     font-weight: normal;
+}
+
+#galleryBookingForm {
+     float: left;
+     width: 420px;
+}
+
+#galleryBookingForm .title {
+     float: left;
+}
+
+#galleryBookingForm .contactField {
+     float: left;
+     margin-bottom: 5px;
+     width: 100%;
+}
+
+#galleryBookingForm .wpcf7-text {
+     float: right;
+     width: 200px;
+}
+
+#galleryBookingForm .interest {
+     float: left;
+     margin-top: 10px;
+     width: 50%;
+}
+
+#galleryBookingForm .interest1 {
+     float: left;
+     margin-top: 10px;
+     width: 50%;
+}
+
+#galleryBookingForm .interest .wpcf7-list-item {
+     display: block;
+     margin-bottom: 10px;
+}
+
+#galleryBookingForm .interest1 .wpcf7-form-control {
+     display: block;
+     margin-bottom: 10px;
+     width: 208px;
+}
+
+#galleryBookingForm .interest1 .wpcf7-list-item {
+     display: block;
+     margin-bottom: 10px;
+}
+
+#galleryBookingForm .interest .wpcf7-list-item input {
+     float: right;
+}
+
+#galleryBookingForm .interest p {
+     margin-left: -8px;
+     padding: 0px;
+}
+
+#galleryBookingForm .additionalMessage {
+     float: left;
+     margin-top: 10px;
+     width: 100%;
+}
+
+#galleryBookingForm .additionalMessage .wpcf7-textarea {
+     max-height: 150px;
+     max-width: 100%;
+     min-height: 150px;
+     min-width: 100%;
+}
+
+#galleryBookingForm .dates {
+     float: left;
+     margin-top: 0px;
+     width: 100%;
+}
+
+#galleryBookingForm .dates #from {
+     margin-left: 190px;
+     margin-right: 10px;
+     width: 150px;
+}
+
+#galleryBookingForm .dates #to {
+     margin-left: 206px;
+     margin-right: 10px;
+     width: 150px;
+}
+
+.dates .contactField {
+     height: 15px;
+}
+
+#galleryBookingForm .additionalMessage .bookingSubmit .wpcf7-submit {
+     background: none repeat scroll 0% 0% #6E2A8D;
+     border: 0px none;
+     color: #FFFFFF;
+     float: right;
+     padding: 5px;
+     text-transform: uppercase;
+}
+
+.nest-living #galleryBookingForm .additionalMessage .wpcf7-textarea {
+     max-height: 93px;
+     max-width: 100%;
+     min-height: 93px;
+     min-width: 100%;
+}
+
+#galleryBookingForm h2 {
+     font-size: 18px;
+}
+
+.cal_rght h2 {
+     margin-bottom: -23px;
+}
+
+#headMenu {
+     position: absolute;
+     right: 0px;
+}
+
+.sdvExp {
+     text-align: right;
+}
+
+.child-div1 {
+     padding-top: 10px;
+}
+
+.child-div1 li {
+     list-style: none outside none;
+}
+
+.child-div1 #s {
+     background: url("images/search_bg.jpg") no-repeat scroll 0% 0% transparent;
+     border: 0px none;
+     display: block;
+     height: 23px;
+     padding: 3px;
+}
+
+.child-div1 #searchsubmit {
+     float: right;
+     height: 0px;
+     margin-top: 5px;
+}
+
+.nest-living #galleryBookingForm .additionalMessage .bookingSubmit .wpcf7-submit {
+     background: none repeat scroll 0% 0% #E7A614;
+     border: 0px none;
+     color: #FFFFFF;
+     float: right;
+     padding: 5px;
+     text-transform: uppercase;
+}
+
+.home a.nivo-prevNav, .home a.nivo-nextNav {
+     display: none;
+}
+
+.home .nivo-controlNav {
+     margin-left: 0px;
+}
+
+#content img {
+     border: 0px none;
+}
+
+#galleryBookingForm h2 {
+     font-size: 13px;
+}
+
+.newsPiece .category-living a {
+     color: #E7A614;
+     font-size: 13px;
+}
+
+.newsPiece .category-gallery a {
+     color: #9B74B3;
+     font-size: 13px;
+}
+
+.newsPiece .category-living, .newsPiece .category-gallery {
+     margin-bottom: 4px;
+}
+
+#copyright .top li.about a {
+     color: #D1D1D1;
+}
+
+#copyright .top li.gallery a {
+     color: #D1D1D1;
+}
+
+#copyright .top li.last a {
+     color: #D1D1D1;
+}
+
+#headMenu .button-secondary {
+     background: none repeat scroll 0% 0% transparent;
+     border: 0px none;
+     cursor: pointer;
+     position: relative;
+     right: 6px;
+     top: -29px;
+     width: 20px;
+}
+
+#secondLevelMenu .sub-menu {
+     margin-top: 10px;
+     position: absolute;
+}
+
+#secondLevelMenu .sub-menu li a {
+     color: #CCCCCC;
+}
+
+.apartments #secondLevelMenu .sub-menu li.current_page_item a {
+     color: #E7A613;
+}
+
+.nest-gallery #secondLevelMenu .sub-menu li a {
+     color: #CCCCCC;
+}
+
+.sub-menu {
+     margin-top: 10px;
+     text-transform: uppercase;
+}
+
+.gall_top_left img, .gall_top_right img {
+     margin-bottom: 20px;
+}
+
+.gall_top_left p, .gall_top_right p {
+     margin-bottom: 0px;
+}
+
+#artistInfo {
+     border-bottom: 1px solid;
+     border-top: 1px solid;
+     margin-bottom: 20px;
+     padding-bottom: 40px;
+     padding-top: 40px;
+}
+
+#artistInfo .artistName {
+     font-size: 12px;
+     font-weight: bold;
+     margin-bottom: 15px;
+     text-transform: uppercase;
+}
+
+#artistInfo .artistTitle {
+     float: left;
+     font-size: 12px;
+     margin-bottom: 20px;
+     width: 100%;
+}
+
+#artistInfo .theDates {
+     font-size: 12px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+}
+
+.right_artistpg {
+     text-align: center;
+}
+
+.right_artistpg img {
+     margin-bottom: 20px;
+}
+
+.menu {
+     font-size: 13px;
+}
+
+.sub-menu a {
+     font-size: 13px;
+}
+
+.extraPics img {
+     height: 100%;
+     width: 100%;
+}
+
+p.which_gall {
+     font-size: 13px;
+     width: 143px;
+}
+
+.home #slider_container {
+     height: 474px;
+     margin-top: 30px;
+}
+
+.newsPiece a {
+     color: #D1D1D1 ! important;
+}
+
+#content div {
+     font-family: helvetica ! important;
+}
+
+.nivo-controlNav .active img {
+     border: 2px solid #E7A614 ! important;
+}
+
+.postItem h1 {
+     margin: 0px;
+}
+
+#archive-title {
+     margin-bottom: 20px;
+}
+
+#appBottom .left .left2 li, #appcolRight .appLinks li {
+     font-size: 12px;
+     list-style: disc outside none;
+     padding: 5px 0pt 5px 5px;
+}
+
+#appcolRight {
+     float: left;
+     margin-left: 50px;
+     margin-top: 50px;
+}
+
+#appcolRight .appBook {
+     float: left;
+     margin-top: 40px;
+}
+
+.sectionTitle {
+     font-size: 13px;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+}
+
+.home .nivo-controlNav {
+     background-repeat: no-repeat;
+     padding-top: 12px;
+     position: absolute;
+     text-align: right ! important;
+     top: 412px;
+     width: 100%;
+     z-index: 101;
+}
+
+.home .nivo-controlNav a.nivo-control {
+     background: url("images/slider-button-active.jpg") no-repeat scroll 0% 0% transparent;
+     color: #303030;
+     float: right;
+     margin-right: 5px;
+     text-align: center;
+     width: 20px;
+}
+
+.home .nivo-controlNav a.nivo-control.active {
+     background: url("images/slider-button.jpg") no-repeat scroll 0% 0% transparent;
+     color: #FFFFFF;
+     float: right;
+     margin-right: 5px;
+     width: 20px;
+}
+
+.screen-reader-text {
+     display: none;
+}
+
+#searchsubmit {
+     background: none repeat scroll 0% 0% transparent;
+     border: medium none;
+     height: 20px;
+     position: absolute;
+     right: 10px;
+     top: 27px;
+     width: 20px;
+}
+
+.sliderBase {
+     background: url("images/nivo-base.png") no-repeat scroll 0% 0% transparent;
+     height: 42px;
+     position: relative;
+     top: -80px ! important;
+     z-index: 100;
+}
+
+#theslider {
+     height: 490px;
+}
+
+.backButton a {
+     float: left;
+     font-size: 13px;
+     margin-right: 295px;
+}
+
+.home #slider .nivo-directionNav {
+     display: none ! important;
+}
+
+p.theDate {
+     margin-bottom: 0px;
+}
+
+p.openNight {
+     margin-bottom: 0px;
+}
+
+.newsTitle {
+     font-size: 13px;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+}
+
+#appcolLeft tbody tr td div {
+     margin-right: 20px ! important;
+}
+
+#galcolLeft tbody tr td div {
+     margin-right: 20px ! important;
+}
+
+.galleries h2 {
+     margin-bottom: -30px;
+     position: relative;
+     top: -40px;
+}
+
+.nest-living .address {
+     margin-top: 10px;
+}
+
+#about-slider_container {
+     float: left;
+     margin-top: 20px;
+}
+
+.galleryTitle {
+     font-size: 13px;
+     font-weight: bold;
+}
+
+.newsLeft {
+     float: left;
+     margin-right: 20px;
+}
+
+#contactArea .newsPiece #category-463 a:hover {
+     font-weight: bold;
+}
+
+.applisting .listingSize {
+     margin-bottom: 3px;
+     margin-top: 10px;
+}
+
+#GalImages .name {
+     background: none repeat scroll 0% 0% #6F2A8E;
+     font-size: 13px;
+     left: 0px;
+     padding: 10px;
+     position: absolute;
+     top: 0px;
+     width: 35%;
+}
+
+.gal .name a:hover {
+    
+}
+
+#GalImages .size {
+     margin-top: 10px;
+}
+
+.apartTitle {
+     float: left;
+     font-size: 13px;
+     font-weight: bold;
+     text-transform: uppercase ! important;
+}
+
+.apartnavigation, .galnavigation {
+     float: right;
+     font-size: 13px;
+     text-align: right;
+     text-transform: uppercase;
+}
+
+.apartnavigation .alignright, .galnavigation .alignright {
+     margin-top: -15px;
+}
+
+#siteMapCont {
+     background: url("images/site-map_bg.jpg") no-repeat scroll 0% 0% transparent;
+     float: left;
+     margin-top: 40px;
+     width: 100%;
+}
+
+#siteMapCont ul {
+     margin-bottom: 10px;
+     margin-left: 20px;
+     padding: 10px 0px;
+}
+
+#siteMapCont ul li {
+     list-style: disc outside none;
+}
+
+#siteMapCont .text {
+     background: none repeat scroll 0% 0% transparent;
+     float: left;
+     padding-left: 20px;
+     padding-top: 20px;
+     width: 400px;
+}
+
+.sliderTop {
+     background: url("images/slider-top_bg.png") repeat scroll 0% 0% transparent;
+     float: left;
+     height: 20px;
+     position: relative;
+     top: 30px;
+     width: 100%;
+     z-index: 9999 ! important;
+}
+
+#copyright img {
+     border: medium none;
+}
+
+.theName {
+     z-index: 999 ! important;
+}
+
+#f_from, #f_to {
+     background: url("images/calendar-icon.png") no-repeat scroll 0% 0% transparent;
+     border: medium none;
+     height: 25px;
+     padding-top: 8px;
+     position: relative;
+     top: 6px;
+     width: 20px;
+}
+
+#galleryBookingForm .dates .contactField {
+     float: left;
+     margin-bottom: 10px;
+}
+
+#galleryBookingForm .dates .contactField .title {
+     padding-top: 10px;
+}
+
+.galTitle {
+     float: left;
+     font-size: 13px;
+     font-weight: bold;
+     text-transform: uppercase;
+     width: 25%;
+}
+
+.galnavigation {
+     float: left;
+     margin-bottom: 20px;
+     text-align: right;
+     width: 75%;
+}
+
+.galnavigation li {
+     display: inline;
+     margin-left: 10px;
+}
+
+#artistInfo h2 {
+     font-size: 13px;
+     text-transform: uppercase;
+}
+
+.nest-gallery #content {
+     padding-bottom: 0px;
+}
+
+.left_artistpg .about {
+     margin-bottom: 10px;
+}
+
+.wpcf7-response-output {
+     float: left;
+}
+
+.galleries .left2 {
+     float: left;
+     margin-top: 40px;
+}
+
+.galleries #appBottom {
+     padding-top: 40px;
+     position: relative;
+}
+
+.theTitle {
+     font-size: 12px;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+}
+
+.theYears {
+     float: left;
+     margin-bottom: 36px;
+     margin-top: -20px;
+     width: 100%;
+}
+
+.theYears li {
+     display: inline;
+     margin-right: 10px;
+}
+
+.theYears li.all a {
+     color: #9B74B3;
+}
+
+.theYears li a {
+     color: #D1D1D1;
+     font-size: 13px;
+}
+
+.theYears li a:hover {
+     color: #9B74B3;
+}
+
+.newsImageBIG {
+     float: left;
+     margin-bottom: 20px;
+}
+
+.newsImageBIG img {
+     border: 1px solid #CCCCCC ! important;
+     width: 665px;
+}
+
+.galleries #appBottom .right1 img {
+     margin-top: 5px;
+}
+
+.nest-living #bookCol .text {
+     padding-top: 0px;
+}
+
+.newsPiece .newsleft {
+     float: left;
+     margin-right: 20px;
+     width: 140px;
+}
+
+.newsPiece .newsright {
+     float: left;
+     margin-left: 20px;
+     width: 393px;
+}
+
+.home .newsPiece {
+     float: left;
+     margin-bottom: 10px ! important;
+}
+
+.home .newsPiece .newsDate {
+     font-size: 10px;
+     margin-bottom: 10px;
+}
+
+.newsright li {
+     padding: 0px;
+}
+
+.current-day {
+     background: none repeat scroll 0% 0% transparent ! important;
+     border: 1px solid #FFFFFF ! important;
+}
+
+.sub-menu a {
+     font-size: 12px;
+}
+
+.joinUs {
+     float: left;
+     margin-top: 35px;
+}
+
+.nest-living #bookCol .text {
+     height: 434px ! important;
+}
+
+.nest-living .right1, .nest-gallery .right1 {
+     margin-left: -12px;
+     padding-top: 30px;
+}
+
+.galleries .right1 img {
+     margin-top: 0px ! important;
+}
+
+.appIntro, .aboveImg {
+     float: left;
+     margin-bottom: 20px;
+}
+
+#galleryBookingForm {
+     float: left ! important;
+     width: 415px ! important;
+}
+
+.cal_left {
+     background: url("images/big_book.png") repeat scroll 0% 0% transparent;
+     float: left;
+     width: 100%;
+}
+
+#secondLevelMenu a {
+     font-size: 15px;
+}
+
+#headMenu #searchform input {
+     width: 150px;
+}
+
+.rightInput fieldset {
+     border: 0px none;
+     float: left;
+}
+
+#appBottom .right .top {
+     float: left;
+     margin-bottom: 50px;
+}
+
+.individual_container {
+     height: 440px;
+}
+
+.homeex a p {
+     color: #D1D3D4 ! important;
+}
+
+@media screen and (max-device-width: 640px) {
+  #pageBase { background: none repeat scroll 0% 0% #000000 ! important; max-height: 30px ! important; }
+}
+

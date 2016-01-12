@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+html, body {
+	height:100%;
+}
+body {
+	text-align:center; /* horizontal centering for IE Win quirks */
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#f4f284;
+	font-size:10px;
+	line-height: 13px;
+}
+
+.italic {
+	font-style: italic;	
+	text-align:center; /* horizontal centering for IE Win quirks */
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#f4f284;
+	font-size:10px;
+	line-height: 13px;
+}
+
+#distance {
+	width:1px;
+	height:50%;
+	margin-bottom:-210px; /* half of container's height */
+	float:left;
+}
+#logo {
+	height:122px;
+	width:279px;
+	float:left;
+	position:relative;
+	z-index: 1;
+}
+#header_text {
+	text-align:right;
+	width:720px;
+	float:right;
+	font-size:11px;
+	color:#999999;
+	margin-top:-50px;
+}
+#conteneur {
+	margin:0 auto;
+	position:relative; /* puts container in front of distance */
+	text-align:left;
+	width :960px;
+	clear:left;
+	text-align:center;
+}
+#contenu {
+	height:336px;
+	width:930px;
+	position:relative;
+	background-image:url(../_img/vague_curve_BG.jpg);
+	background-repeat:no-repeat;
+	float:right;
+	margin-top:-25px;
+	z-index: 2;
+}
+#menu {
+	width:117px;
+	float:left;
+	position:relative;
+	padding-left:15px;
+	text-align:left;
+	padding-top:10px;
+	z-index: 2;
+}
+#menu a {
+	color:#c1c3c5;
+	text-decoration:none;
+}
+#menu a:hover {
+	color:#f4f284;
+}
+#texte_geneva .yellow{
+	color:#f4f284;
+}
+#menu .yellow{
+	color:#f4f284;
+}
+#menu a:active {
+	color:#c1c3c5;
+}
+
+#texte {
+	width:245px;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+	text-align:justify;
+	padding-top:10px;
+}
+#texte a {
+	color:#c1c3c5;
+	text-decoration:none;
+}
+#texte a:hover {
+	color:#f4f284;
+}
+#texte_title {
+	font-size: 13px;
+	font-weight: 700;
+	text-align:left;
+	line-height: 15px;
+}
+
+#texte_geneva {
+	width:508px;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+	text-align:left;
+	padding-top:10px;
+}
+#texte_geneva a {
+	color:#c1c3c5;
+	text-decoration:none;
+}
+#texte_geneva a:hover {
+	color:#f4f284;
+}
+
+#links_geneva {
+	width:244px;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+	text-align:justify;
+}
+#sublinks_geneva {
+	width:244px;
+	padding-left:5px;
+	padding-right:5px;
+	float:right;
+	text-align:justify;
+}
+
+
+
+#right_image {
+	width:534px;
+	float:right;
+	text-align:right;
+}
+#right_image_geneva {
+	width:267px;
+	float:right;
+	text-align:right;
+}
+label {
+	display:block;
+	width:160px;
+	float:left;
+}
+
+img {
+	border:none;
+}
+
+footer {
+	color: #c1c3c5;
+	text-decoration: none;
+}
+footer a {
+	color: #333333;
+	text-decoration: none;
+}
+footer a:hover {
+	color:#333333;
+	text-decoration:none;
+}
